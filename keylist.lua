@@ -3,24 +3,24 @@
 -- max_devices = 20 (matlab 20 phones mein chalegi)
 
 return {
-    ["QUARTER"] = {
+    ["KINZZY_VIP_001"] = {
         type = "VIP",
-        expiry = "2027-12-31",
+        expiry = "2026-10-16",
         valid = true,
-        max_devices = 20,
+        max_devices = 1,
         SLOT = "1"
     },
-    ["DEMO123"] = {
-        type = "DEMO",
-        expiry = "2026-08-01",
+    ["KINZZY_VIP_222"] = {
+        type = "VIP",
+        expiry = "2026-10-16",
         valid = true,
-        max_devices = 5,
+        max_devices = 1,
         SLOT = "2"
     },
-    ["SINGLE_USER"] = {
+    ["hoj57477"] = {
         type = "VIP",
         expiry = "2025-01-01",
-        valid = true,
+        valid = false,
         max_devices = 1,
         SLOT = "3"
     },
@@ -32,3 +32,4 @@ return {
         SLOT = "0"
     }
 }
+
